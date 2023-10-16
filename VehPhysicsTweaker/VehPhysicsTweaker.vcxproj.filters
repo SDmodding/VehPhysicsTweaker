@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Project Files\Core">
+      <UniqueIdentifier>{e2d5799e-65c8-4b43-966d-1a9b6c3e03e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Core\Globals">
+      <UniqueIdentifier>{0d0fd885-0054-417a-8f5b-c865a62064cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\3rdParty">
+      <UniqueIdentifier>{a8b06ab9-6e05-4eb2-970c-ec4d51bebc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\3rdParty\MinHook">
+      <UniqueIdentifier>{c6d729b6-06d0-441f-a6c6-c58fe9ba6986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\3rdParty\MinHook\hde">
+      <UniqueIdentifier>{f52d0f1a-ab71-4ca5-8ca0-09296dad5ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Core\Hooks">
+      <UniqueIdentifier>{3a0734af-4031-42d6-8c34-9c6693c7b4ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cxx">
+      <Filter>Project Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\MinHook\hde\hde64.c">
+      <Filter>Project Files\3rdParty\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\MinHook\buffer.c">
+      <Filter>Project Files\3rdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\MinHook\hook.c">
+      <Filter>Project Files\3rdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\MinHook\trampoline.c">
+      <Filter>Project Files\3rdParty\MinHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".Includes.hxx">
+      <Filter>Project Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\.Includes.hxx">
+      <Filter>Project Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MsgBox.hxx">
+      <Filter>Project Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook.h">
+      <Filter>Project Files\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\SimpleIni.h">
+      <Filter>Project Files\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook\hde\hde64.h">
+      <Filter>Project Files\3rdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook\hde\pstdint.h">
+      <Filter>Project Files\3rdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook\hde\table64.h">
+      <Filter>Project Files\3rdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook\buffer.h">
+      <Filter>Project Files\3rdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\MinHook\trampoline.h">
+      <Filter>Project Files\3rdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Globals\Configuration.hxx">
+      <Filter>Project Files\Core\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Hooks\CarPhysicsDef.hxx">
+      <Filter>Project Files\Core\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Hooks\BikePhysicsDef.hxx">
+      <Filter>Project Files\Core\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Hooks\BoatPhysicsDef.hxx">
+      <Filter>Project Files\Core\Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\VehPhysicsTweaker.ini">
+      <Filter>Project Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
